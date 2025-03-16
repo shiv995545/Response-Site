@@ -1,0 +1,65 @@
+body {
+    background-image: url("./images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%)
+}
+
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+    margin: 0 10%;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+.second {
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 37px;
+}
+
+
+p {
+    font-family: Opens Sans;
+    font-size: 18px;
+}
+
+button {
+    font-size: 20px;
+    padding: 13px 50px;
+    border-radius: 35px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: none;
+    color: hsl(300, 73%, 27%);
+}
+
+.footer {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    color: white;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .footer {
+        justify-content: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    }
